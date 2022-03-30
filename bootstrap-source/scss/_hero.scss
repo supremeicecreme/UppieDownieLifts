@@ -1,0 +1,13 @@
+.front-hero{
+    background-size: cover;
+}
+
+.front-hero-content{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba($color: #fefefe, $alpha: 0.4);
+    .lead{
+        font-size: 24pt;
+    }
+
+}
