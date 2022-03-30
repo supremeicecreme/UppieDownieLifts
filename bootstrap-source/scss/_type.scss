@@ -1,4 +1,15 @@
 //
+// Pre-Heading
+//
+.pre-heading {
+  color: $primary;
+  text-transform: uppercase;
+  font-size: $font-size-base * 0.8;
+  font-weight: bold;
+}
+
+
+//
 // Headings
 //
 .h1 {
