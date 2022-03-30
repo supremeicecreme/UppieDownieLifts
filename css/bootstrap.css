@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 .top-space {
-  margin-top: 11rem;
+  margin-top: 8rem;
 }
 
 :root {
@@ -6281,6 +6281,19 @@ textarea.form-control-lg {
     mask-position: -200% 0%;
   }
 }
+.front-hero {
+  background-size: cover;
+}
+
+.front-hero-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(254, 254, 254, 0.4);
+}
+.front-hero-content .lead {
+  font-size: 24pt;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
