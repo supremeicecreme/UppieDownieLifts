@@ -11,7 +11,8 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img id="logo" src="https://cdn.discordapp.com/attachments/951874491380805654/958716621168468088/Colour_Transparent.png" alt="" height="110">
+                <img id="logo" class="d-none d-sm-block" src="https://cdn.discordapp.com/attachments/951874491380805654/958716621168468088/Colour_Transparent.png" alt="" height="110">
+                <img id="logo-mobile" class="d-block d-sm-none" src="https://cdn.discordapp.com/attachments/951874491380805654/958716621168468088/Colour_Transparent.png" alt="" height="85">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,9 +44,11 @@
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
             //document.getElementById("navbar").style.padding = "30px 10px";
             document.getElementById("logo").style.height = "70px";
+            document.getElementById("logo-mobile").style.height = "50px";
         } else {
             //document.getElementById("navbar").style.padding = "80px 10px";
             document.getElementById("logo").style.height = "110px";
+            document.getElementById("logo-mobile").style.height = "85px";
         }
         }
     </script>
